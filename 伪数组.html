@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <body>
+    <ul>
+        <li>a</li>
+        <li>b</li>
+        <li>c</li>
+        <li>d</li>
+        <li>e</li>
+    </ul>
+    <script>
+        //获取到元素
+        var lis = document.getElementsByTagName('li')
+        //遍历
+        // lis.forEach(function (value, index) {
+        //     console.log(value);
+        // })
+        console.log(lis)
+        for(let i in lis){
+          console.log(lis[i].innerHTML)
+        }
+    </script>
+</body>
+</body>
+</html>
